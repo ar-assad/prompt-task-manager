@@ -1,0 +1,12 @@
+/* styles/Header.css */
+
+.header-container {
+  background-color: #aaffec; /* Pastel cyan background color */
+  color: #ff6b6b; /* Pastel red text color */
+  padding: 15px; /* Adjust padding as needed */
+}
+
+.title {
+  margin: 0; /* Remove default margin for h1 */
+  font-size: 1.5rem; /* Adjust font size as needed */
+}

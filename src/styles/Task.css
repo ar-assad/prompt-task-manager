@@ -1,0 +1,38 @@
+/* styles/Task.css */
+
+.task-card {
+  background-color: #aaffec; /* Pastel cyan background color */
+  color: #ff6b6b; /* Pastel red text color */
+  border-radius: 8px; /* Rounded edges */
+  padding: 15px; /* Adjust padding as needed */
+  margin-bottom: 10px; /* Add space between task cards */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-info {
+  flex: 1; /* Take up available space */
+}
+
+.task-description {
+  margin: 0;
+  font-weight: bold; /* Make the description stand out */
+}
+
+.task-due-date,
+.task-priority {
+  margin: 5px 0;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.delete-button,
+.edit-button {
+  margin-left: 10px; /* Add space between buttons */
+  padding: 5px 10px;
+  cursor: pointer;
+}

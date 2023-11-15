@@ -1,0 +1,19 @@
+/* styles/TaskList.css */
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-task-button {
+  background-color: #aaffec; /* Pastel cyan background color */
+  color: #ff6b6b; /* Pastel red text color */
+  border: none;
+  border-radius: 50%; /* Circular button */
+  padding: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

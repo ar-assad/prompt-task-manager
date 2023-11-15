@@ -1,0 +1,23 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #aed9e0; /* Darker pastel blue background color */
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  background-color: #5e9fb3; /* Dark pastel blue background color for the header */
+  color: #fff; /* White text color */
+  padding: 15px;
+  text-align: center;
+}
