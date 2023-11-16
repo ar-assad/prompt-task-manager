@@ -19,6 +19,12 @@ const TaskList = () => {
     setIsFormVisible(false);
   };
 
+  const handleDeleteTask = (index) => {
+    const updatedTasks = [...tasks];
+    updatedTasks.splice(index, 1);
+    setTasks(updatedTasks);
+  };
+
   return (
     <div className="task-list">
       {tasks.map((task, index) => (
@@ -28,6 +34,7 @@ const TaskList = () => {
           dueDate={task.dueDate}
           completed={task.completed}
           onToggleComplete={() => handleToggleComplete(index)}
+          onDelete={() => handleDeleteTask(index)}
         />
       ))}
       <button

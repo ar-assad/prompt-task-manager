@@ -7,9 +7,13 @@ const AddTaskForm = ({ onClose, onFormSubmit }) => {
   const [dueDate, setDueDate] = useState("");
 
   const handleSubmit = () => {
+    // Check if dueDate is empty, and set it to the current date if it is
+    const currentDate = new Date().toISOString().split('T')[0];
+    const finalDueDate = dueDate.trim() === "" ? currentDate : dueDate;
+
     onFormSubmit({
       description: taskDescription,
-      dueDate: dueDate
+      dueDate: finalDueDate
     });
 
     setTaskDescription("");

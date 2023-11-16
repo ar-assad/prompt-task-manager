@@ -9,11 +9,12 @@
   background-color: #aaffec; /* Pastel cyan background color */
   color: #ff6b6b; /* Pastel red text color */
   border: none;
-  border-radius: 50%; /* Circular button */
-  padding: 15px;
+  border-radius: 50%; /* Make it round */
+  padding: 10px; /* Adjusted padding */
   font-size: 1.5rem;
   cursor: pointer;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+  margin-top: 10px; /* Added margin */
+  align-self: center; /* Center the button */
+  width: 2em; /* Fixed width */
+  height: 2em; /* Fixed height */
 }
